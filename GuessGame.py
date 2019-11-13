@@ -33,7 +33,8 @@ while True:
 
     print("Do you want to continue? Press Y to continue or any other keys to exit!")
     userContinue = input()
-    if userContinue == "Y" or "y":
+    if userContinue == "Y" or userContinue == "y":
         continue
     else:
         break
+quit()
